@@ -1,0 +1,9 @@
+
+
+number = int(input())
+year = int(number/365);
+month = int((number%365)/30)
+day = int((number%365)%30)
+print(f'{year} ano(s)')
+print(f'{month} mes(es)')
+print(f'{day} dia(s)')
