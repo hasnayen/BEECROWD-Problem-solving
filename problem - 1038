@@ -1,0 +1,26 @@
+import math
+A,B = input().split()
+
+
+B = float(B)
+
+p1 = float(4 * B)
+p2 = float(4.50 * B)
+p3 = float(5.00 * B)
+p4 = float(2.00 * B)
+p5 = float(1.50 * B)
+if A == "1":
+    print("Total: R$ ", end="")
+    print("{0:.2f}".format(p1))
+if A == "2":
+    print("Total: R$ ", end="")
+    print("{0:.2f}".format(p2))
+if A == "3":
+    print("Total: R$ ", end="")
+    print("{0:.2f}".format(p3))
+if A == "4":
+    print("Total: R$ ", end="")
+    print("{0:.2f}".format(p4))
+if A == "5":
+    print("Total: R$ ", end="")
+    print("{0:.2f}".format(p5))
