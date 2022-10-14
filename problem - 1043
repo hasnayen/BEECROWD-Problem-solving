@@ -1,0 +1,9 @@
+A, B, C = map(float, input().split())
+
+
+	
+if A+B > C and A + C > B and B + C > A:
+    print(f'Perimetro = {round(A+B+C,1)}')
+else:
+    area = float(((A+B)/2)*C)
+    print(f'Area = {round(area,1)}')
